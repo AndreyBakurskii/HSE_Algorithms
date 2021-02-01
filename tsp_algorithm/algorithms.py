@@ -66,6 +66,12 @@ def local(initial_solution: Solution):
 
 
 def perturbation(solution: Solution, history: list):
+    """
+    perturbation by 3-opt with random selection of segment vertices
+    :param solution:
+    :param history:
+    :return:
+    """
     length = solution.get_length()
 
     best_solution = None
