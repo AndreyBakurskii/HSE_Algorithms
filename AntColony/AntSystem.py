@@ -188,7 +188,7 @@ class AntSystem:
 
 if __name__ == '__main__':
 
-    input_data = InputData('./data/cities.csv', 100)
+    input_data = InputData('./data/cities.csv', 1000)
     input_data.read_data()
     input_data.fill_distance_matrix()
 
